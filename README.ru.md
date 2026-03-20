@@ -1,5 +1,5 @@
-[![lang en](https://img.shields.io/badge/lang-en-red)](https://github.com/EmilioAugust/Collector/blob/main/README.md)
-[![lang ru](https://img.shields.io/badge/lang-ru-blue)](https://github.com/EmilioAugust/Collector/blob/main/README.ru.md)
+[![lang en](https://img.shields.io/badge/lang-en-red)](https://github.com/EmilioAugust/localFiles)
+[![lang ru](https://img.shields.io/badge/lang-ru-blue)](github.com/EmilioAugust/localFiles/blob/main/README.ru.md)
 
 # LAN File Sharing (Golang)
 Простое веб-приложение для передачи файлов между устройствами в одной локальной сети (Wi-Fi).
