@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    container_name: go_web_app
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./uploads:/app/uploads
+    env_file:
+      - .env
+    restart: unless-stopped

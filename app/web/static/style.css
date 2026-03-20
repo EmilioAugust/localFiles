@@ -1,0 +1,194 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#f5f6f8;
+    margin:0;
+    position: relative;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 40px;
+    background:white;
+    border-bottom:1px solid #eee;
+}
+
+.header h2{
+    margin:0;
+}
+
+.login-btn{
+    background:#eee;
+    border:none;
+    padding:8px 15px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+main{
+    max-width:800px;
+    margin:auto;
+    padding:40px 20px;
+    text-align:center;
+}
+
+h1{
+    margin-bottom:30px;
+}
+
+.upload-box{
+    border:2px dashed #ccc;
+    border-radius:10px;
+    padding:40px;
+    background:white;
+    cursor:pointer;
+}
+
+.upload-content .icon{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.upload-content p{
+    font-weight:bold;
+    margin:0;
+}
+
+.upload-content span{
+    color:#777;
+    font-size:14px;
+}
+
+#selectBtn{
+    margin-top:15px;
+    padding:10px 16px;
+    background:#4f7cff;
+    color:white;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.recent{
+    margin-top:40px;
+    text-align:left;
+}
+
+.files{
+    margin-top:10px;
+}
+
+.file{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:white;
+    padding:12px 16px;
+    border-radius:8px;
+    margin-bottom:10px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.05);
+}
+
+.file-info{
+    text-align:left;
+}
+
+.file-name{
+    font-weight:bold;
+}
+
+.file-size {
+    font-size:12px;
+    color:#777;
+    margin-top:10px;
+}
+
+.file-actions {
+    display: inline-flex;
+}
+
+.file-actions button{
+    margin-left:10px;
+    border:none;
+    background:#eee;
+    padding:6px 10px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    color:#777;
+}
+
+#qrcode img {
+    position: absolute;
+    width: 100px;
+    padding:20px;
+}
+
+.progress-container{
+    width:100%;
+    height:10px;
+    background:#ddd;
+    border-radius:6px;
+    margin-top:15px;
+    overflow:hidden;
+}
+
+.progress-bar{
+    height:100%;
+    width:0%;
+    background:#4f7cff;
+    transition:width 0.2s;
+}
+
+/* Адаптация для маленьких экранов */
+@media (max-width: 600px){
+  main{
+    padding:15px;
+  }
+
+  .upload-box{
+    padding:30px 20px;
+  }
+
+  .upload-content .icon{
+    font-size:30px;
+  }
+
+  #selectBtn{
+    padding:8px 12px;
+  }
+
+  .file{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .file-actions{
+    margin-top:8px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .file-actions button{
+    flex: 1 1 auto;
+  }
+
+  .progress-container{
+    height:8px;
+  }
+
+  footer{
+    font-size:12px;
+  }
+
+  #qrcode {
+    display: none;
+  }
+
+}

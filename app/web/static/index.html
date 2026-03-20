@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aura - Upload Files</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div id="qrcode"></div>
+<main>
+
+<input type="file" id="fileInputToken" hidden>
+
+<h1>Upload & Share Files</h1>
+
+<div class="upload-box" id="dropZone">
+    <div class="upload-content">
+        <div class="icon">⬆</div>
+        <p>Drag & Drop Files Here</p>
+        <span>or browse your computer</span>
+
+        <input type="file" id="fileInput" hidden>
+        <button id="selectBtn">+ Select Files</button>
+    </div>
+</div>
+<div class="progress-container" id="progressContainer" style="display:none;">
+  <div class="progress-bar" id="progressBar"></div>
+</div>
+
+<h3 class="recent">Recently Uploaded Files</h3>
+
+<div id="filesList" class="files"></div>
+
+</main>
+
+<footer>
+  <div id="userAgent" style="margin-top:5px; font-size:12px; color:#555;"></div>
+</footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
