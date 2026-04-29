@@ -173,7 +173,7 @@ func HandleDeleteFile(w http.ResponseWriter, r *http.Request) {
 
 // COOKIES
 
-func HandlerCookies(next http.Handler) http.Handler {
+func HandlerDevices(next http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		checkedDevice := utils.CheckForDevice(r.Header.Get("User-Agent"))
 		log.Println("New device found: ", checkedDevice)
