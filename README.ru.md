@@ -16,7 +16,6 @@
 ## Запуск через Docker
 
 **1. Установить Docker и Docker Compose**
-Убедитесь, что у вас установлены:
 - Docker
 - Docker Compose
 
