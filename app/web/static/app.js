@@ -126,19 +126,6 @@ function downloadFile(id){
 const uaDiv = document.getElementById("userAgent")
 uaDiv.textContent = navigator.userAgent
 
-
-async function generateQR() {
-    const res = await fetch("/ip")
-    const data = await res.json()
-    if (!data.ip) {
-        console.error("IP is empty")
-        return
-    }
-    const url = "http://" + data.ip + ":8080"
-    var qrcode = new QRCode("qrcode", url);
-}
-
-
 loadFiles()
 
 generateQR()
