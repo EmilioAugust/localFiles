@@ -23,7 +23,7 @@ Make sure you have:
 
 **2. Clone the repository**
 ```bash
-git https://github.com/EmilioAugust/localFiles.git
+git clone https://github.com/EmilioAugust/localFiles.git
 cd localFiles
 ```
 **3. Create uploads directory**
