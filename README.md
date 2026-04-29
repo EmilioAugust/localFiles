@@ -23,18 +23,16 @@ Make sure you have:
 
 **2. Clone the repository**
 ```bash
-git https://github.com/EmilioAugust/localFiles.git
+git clone https://github.com/EmilioAugust/localFiles.git
 cd localFiles
 ```
-**3. Create uploads directory**
-```bash
-mkdir files
-```
-**4. Start the container**
+
+**3. Start the container**
 ```bash
 docker-compose up --build
 ```
-**5. Open the app**
+
+**4. Open the app**
 ```bash
 http://localhost:8080
 ```
