@@ -17,7 +17,6 @@ A simple web application for transferring files between devices within the same 
 ## Run with Docker
 
 **1. Install Docker & Docker Compose**
-Make sure you have:
 - Docker
 - Docker Compose
 
