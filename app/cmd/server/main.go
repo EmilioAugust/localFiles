@@ -12,7 +12,7 @@ import (
 
 func main() {
 	r := chi.NewRouter()
-	r.Use(handlers.HandlerCookies)
+	r.Use(handlers.HandlerDevices)
 	r.Use(cors.Handler(cors.Options{
 		AllowedOrigins: []string{"*"},
 		AllowedMethods: []string{"GET", "POST","DELETE","OPTIONS"},
