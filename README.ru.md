@@ -25,15 +25,13 @@
 git https://github.com/EmilioAugust/localFiles.git
 cd localFiles
 ```
-**3. Создать папку для файлов**
-```bash
-mkdir files
-```
-**4. Запустить контейнер**
+
+**3. Запустить контейнер**
 ```bash
 docker-compose up --build
 ```
-**5. Открыть веб-приложение**
+
+**4. Открыть веб-приложение**
 ```bash
 http://localhost:8080
 ```
